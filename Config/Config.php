@@ -7,7 +7,7 @@ date_default_timezone_set('America/Bogota');
 
 // DATOS DE CONEXIÓN A LA BASE DE DATOS
 const DB_HOST = "localhost";
-const DB_NAME = "tienda";
+const DB_NAME = "db_tiendavirtual";
 const DB_USER = "root";
 const DB_PASSWORD = "";
 const DB_CHARSET = "charset=utf8";
