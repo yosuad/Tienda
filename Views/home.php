@@ -9,10 +9,7 @@
 </head>
 
 <body>
-    <h1><?php echo $data['page_title']; ?></h1>
-    <p><?php echo $data['page_content']; ?></p>
 
-    <?php echo SMONEY . formatMoney(52500); ?>
 </body>
 
 </html>
