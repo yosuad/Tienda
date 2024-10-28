@@ -2,8 +2,6 @@
 
 //define("BASE_URL", "http://localhost/tienda_virtual/");
 const BASE_URL = "http://localhost/Tienda";
-const LIBS = "Libraries/";
-const VIEWS = "Views/";
 
 
 //Zona horaria
@@ -17,8 +15,8 @@ const DB_PASSWORD = "";
 const DB_CHARSET = "charset=utf8";
 
 //Deliminadores decimal y millar Ej. 24,1989.00
-const SPD = ".";
-const SPM = ",";
+const SPD = ",";
+const SPM = ".";
 
 //Simbolo de moneda
-const SMONEY = "Q";
+const SMONEY = "$";
