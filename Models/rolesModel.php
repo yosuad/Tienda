@@ -1,6 +1,6 @@
 <?php
 
-class RolesModel extends Mysql
+class rolesModel extends Mysql
 {
     public function __construct()
     {
