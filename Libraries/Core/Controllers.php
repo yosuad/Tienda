@@ -2,6 +2,7 @@
 
 class Controllers
 {
+    public $model; // Declaración de la propiedad
     public function __construct()
     {
         $this->views = new Views();
@@ -10,6 +11,7 @@ class Controllers
 
     public function loadModel()
     {
+
         //HomeModel.php
         $model = get_class($this) . "Model";
         $routClass = "Models/" . $model . ".php";
