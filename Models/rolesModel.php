@@ -31,7 +31,6 @@ class RolesModel extends Mysql
 
     public function insertRol(string $rol, string $descripcion, int $status)
     {
-
         $return = "";
         $this->strRol = $rol;
         $this->strDescripcion = $descripcion;
